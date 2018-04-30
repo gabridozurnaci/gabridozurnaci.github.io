@@ -139,8 +139,10 @@ h1 {
 }
 
 h2 {
-    font-size: 26px;
-    font-weight: lighter
+	font-family: 'Fugaz One', cursive;
+    font-size: 55px;
+    font-weight: lighter;
+	color:#ff5314
 }
 
 h3 {
@@ -416,7 +418,7 @@ body {
     width: 100%;
     min-height: 85px;
     padding-bottom: 30px;
-    background-color: #2d3e50
+    background-color: #ff8d54
 }
 
 .page-footer__inner {
