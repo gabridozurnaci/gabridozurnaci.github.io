@@ -572,7 +572,7 @@ body {
 .portfolio__item-title {
     display: block;
     font-size: 18px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .portfolio__item-title:before {
