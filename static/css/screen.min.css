@@ -597,8 +597,7 @@ body {
     width: 100%;
     min-height: 300px;
     padding: 70px 0;
-    background-color: #ff8d54;
-	background: url(../images/header_bg.png) 0 center no-repeat
+	background: #ff8d54 url(../images/header_bg.png) center 0 no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
