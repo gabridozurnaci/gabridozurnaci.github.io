@@ -134,13 +134,14 @@ input[type=submit] {
 }
 
 h1 {
+	font-family: 'Fugaz One', cursive;
     font-size: 42px;
     font-weight: lighter
 }
 
 h2 {
 	font-family: 'Fugaz One', cursive;
-    font-size: 55px;
+    font-size: 32px;
     font-weight: lighter;
 	color:#ff5314
 }
@@ -371,7 +372,7 @@ body {
     height: 50px;
     margin: 25px 0 0 40px;
     padding: 5px 0 0 65px;
-    background: url(../images/logo.png) 0 center no-repeat
+    background: url(../assets/images/logo.png) 0 center no-repeat
 }
 
 .page-header__logo h1 {
@@ -599,7 +600,7 @@ body {
     width: 100%;
     min-height: 300px;
     padding: 70px 0;
-	background: #ff8d54 url(../images/header_bg.png) center 0 no-repeat;
+	background: #ff8d54 url(../assets/images/header_bg.png) center 0 no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -837,6 +838,15 @@ body {
 	left:0;
 	width:100%;
 	height:100%;
+}
+
+.article__inner {
+    max-width: 1024px;
+    margin: 0 auto
+}
+
+.post-content {
+	padding-bottom: 30px;
 }
 
 @media screen and (max-width:1000px) {
