@@ -42,7 +42,7 @@ minima:
 # Build settings
 theme: minima
 
-exclude: [README.md, Gemfile, Gemfile.lock, LICENSE.txt]
+exclude: [README.md, Gemfile, Gemfile.lock, LICENSE.txt, CNAME, minima.gemspec]
 
 plugins:
  - jekyll-feed
