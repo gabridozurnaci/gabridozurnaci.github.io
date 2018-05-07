@@ -293,13 +293,13 @@ data:
         <h4>{{ restaurant.name }}</h4>
         <p>{{ restaurant.description }}</p>
         <p>Addresse: {{ restaurant.address }}</p>
-        <p>Telefon: {{ restaurant.phone }}</p>
-        <p>Webseite: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
+        <p>Telefon: {{ restaurant.phone }}</p>        
         <p>Öffnungszeiten<br />
         {%- for hour in restaurant.hours -%}
           {{ hour.day}} : {{ hour.timings }}<br />
         {%- endfor -%}
         </p>
+        <p>Webseite: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
       </li>
     {%- endfor -%}
   </ol>
