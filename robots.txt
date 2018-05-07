@@ -1,0 +1,4 @@
+Sitemap: https://instantramen.de/sitemap.xml
+
+User-agent: *
+Disallow: /google8ee2b45b161451c7.html
