@@ -598,9 +598,7 @@ body {
 
 .promo {
     width: 100%;
-    min-height: 300px;
-    padding: 70px 0;
-	background: #ff8d54 url(../assets/images/header_bg.png) center 0 no-repeat;
+    background: #ff7637;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -847,6 +845,11 @@ body {
 
 .post-content {
 	padding-bottom: 30px;
+}
+
+img.responsive {
+  max-width: 1024px;
+  height: auto;
 }
 
 @media screen and (max-width:1000px) {
