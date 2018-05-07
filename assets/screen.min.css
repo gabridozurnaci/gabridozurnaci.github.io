@@ -154,11 +154,10 @@ h3 {
 p {
   font-size: 15px;
   font-weight: lighter;
-  color: #909090
+  color: #4B4B4B;
 }
 
 a {
-  font-size: 20px;
   text-decoration: none
 }
 
@@ -852,6 +851,15 @@ body {
 img.responsive {
   max-width: 1024px;
   height: auto;
+}
+
+#restaurants ol, ul {
+  margin-top: 10px;
+  padding: 0;
+}
+
+#restaurants ol li {
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width:1000px) {

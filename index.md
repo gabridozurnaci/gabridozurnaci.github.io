@@ -1,10 +1,4 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
 badges: 
   - name: Spicy Meter
@@ -23,9 +17,10 @@ badges:
       alt: student nudeln
     cat: all cat1
   - name: Restaurants
+    url: /pages/restaurants.html
     img: 
       url: 004-ramen-4.png
-      alt: restaurants
+      alt: Restaurants
     cat: all cat1
   - name: Ramenmarkt
     img: 
