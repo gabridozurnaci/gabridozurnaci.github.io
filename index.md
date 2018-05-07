@@ -17,7 +17,7 @@ badges:
       alt: student nudeln
     cat: all cat1
   - name: Restaurants
-    url: /pages/restaurants.html
+    url: /pages/restaurants
     img: 
       url: 004-ramen-4.png
       alt: Restaurants
