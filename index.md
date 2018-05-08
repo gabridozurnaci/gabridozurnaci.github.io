@@ -1,6 +1,12 @@
 ---
 layout: home
 badges: 
+  - name: Restaurants
+    url: /restaurants
+    img: 
+      url: restaurants.png
+      alt: Restaurants
+    cat: all cat1
   - name: Spicy Meter
     img: 
       url: 001-ramen-6.png
@@ -15,12 +21,6 @@ badges:
     img: 
       url: 003-soup-1.png
       alt: student nudeln
-    cat: all cat1
-  - name: Restaurants
-    url: /restaurants
-    img: 
-      url: 004-ramen-4.png
-      alt: Restaurants
     cat: all cat1
   - name: Ramenmarkt
     img: 
