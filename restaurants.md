@@ -79,7 +79,7 @@ data:
     - day: Sonntag & Feiertag
       timings: 12:00-23:00
     website: http://mikoto-stuttgart.de
-- city: Munich
+- city: München
   restaurants:
   - name: TAKUMI München
     description: Hier gibt es sogar hausgemachte Nudeln.
@@ -284,9 +284,15 @@ data:
 
 <p>Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft.</p>
 <br />
+<div id="outer_container">
 <div id="restaurants">
    {%- for city in page.data -%}
   <h2>{{ city.city }}</h2>
+	<iframe
+	  frameborder="0" style="border:0"
+	  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAyFrj9Bz_Hz8EFZP4XasDmyhH7ly4WjLA
+	    &q={{ city.city }}&language=de">
+	</iframe>
   <ol>
     {%- for restaurant in city.restaurants -%}
       <li>
@@ -305,3 +311,7 @@ data:
   </ol>
   {%- endfor -%}
  </div>
+ <div id="map">
+   
+ </div>
+</div>
