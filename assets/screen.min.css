@@ -376,13 +376,14 @@ body {
   background: url(../assets/images/logo.png) 0 center no-repeat
 }
 
-.page-header__logo h1 {
+.page-header__logo h1, h2 {
   font-family: 'Fugaz One', cursive;
   margin-top: 8px;
   font-size: 20px;
   text-align: center;
   font-weight: 700;
-  text-transform: uppercase
+  text-transform: uppercase;
+  color: #424242;
 }
 
 .page-header__logo span {
