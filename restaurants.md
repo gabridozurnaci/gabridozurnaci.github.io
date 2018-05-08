@@ -4,6 +4,68 @@ title: "Ramen Restaurants überall in Deutschland"
 icon: "assets/images/food.png"
 categories: misc
 data:
+- city: Hamburg
+  restaurants:
+  - name: Ramen Bar Zipang
+    address: Eppendorfer Weg 62, 20259 Hamburg
+    phone: 040 30703777
+    hours:
+    - day: MontagMontag
+      timings: Geschlossen
+    - day: Dienstag - Sonntag
+      timings: 18-22
+    website: http://ramen-bar.de
+  - name: MOMO Ramen
+    address: Margaretenstraße 58, 20357 Hamburg
+    phone: 040 30703777
+    hours:
+    - day: Mo - Fr
+      timings: 18-22
+    - day: Sa & So
+      timings: 13-22
+    website: http://www.momo-ramen.de
+  - name: Kokomo Noodle Club
+    address: Clemens-Schultz-Straße 41, 20359 Hamburg
+    phone: 040 52155970
+    hours:
+    - day: So - Do
+      timings: 12-22
+    - day: Fr & Sa
+      timings: 12-23
+    website: http://www.momo-ramen.de
+- city: Berlin
+  restaurants:
+  - name: Cocolo Ramen X-berg
+    address: Paul-Lincke-Ufer 39-40, 10999 Berlin
+    hours:
+    - day: Mo-Sa
+      timings: 12-23
+    phone: 030 98339073
+  - name: Cocolo Ramen
+    address: Gipsstraße 3, 10119 Berlin
+    hours:
+    - day: Mo-Sa
+      timings: 18-00
+    - day: Sonntag
+      timings: "/"
+    website: http://kuchi.de/
+  - name: Marubi Ramen Japanische & Shanghai Spezialitäten
+    address: Schönhauser Alle 177, 10119 Berlin
+    hours:
+    - day: Mo-Sa
+      timings: 12-22
+    - day: Sonntag
+      timings: 17-22
+    phone: 030 47378858
+    website: http://marubi.eu/
+  - name: Takumi NINE Sapporo
+    address: Chauseestr. 124, 10115 Berlin
+    hours:
+    - day: Mo-Fr
+      timings: 12-15, 18 - 23:00
+    - day: Sa & So
+      timings: 13-22
+    website: http://takumininberlin.de/
 - city: Nürnberg
   restaurants:
   - name: Ishihara
@@ -188,68 +250,6 @@ data:
       timings: 12:00-15:00, 16:30-21:00
     - day: Sonntag
       timings: 16:30-21:00
-- city: Hamburg
-  restaurants:
-  - name: Ramen Bar Zipang
-    address: Eppendorfer Weg 62, 20259 Hamburg
-    phone: 040 30703777
-    hours:
-    - day: MontagMontag
-      timings: Geschlossen
-    - day: Dienstag - Sonntag
-      timings: 18-22
-    website: http://ramen-bar.de
-  - name: MOMO Ramen
-    address: Margaretenstraße 58, 20357 Hamburg
-    phone: 040 30703777
-    hours:
-    - day: Mo - Fr
-      timings: 18-22
-    - day: Sa & So
-      timings: 13-22
-    website: http://www.momo-ramen.de
-  - name: Kokomo Noodle Club
-    address: Clemens-Schultz-Straße 41, 20359 Hamburg
-    phone: 040 52155970
-    hours:
-    - day: So - Do
-      timings: 12-22
-    - day: Fr & Sa
-      timings: 12-23
-    website: http://www.momo-ramen.de
-- city: Berlin
-  restaurants:
-  - name: Cocolo Ramen X-berg
-    address: Paul-Lincke-Ufer 39-40, 10999 Berlin
-    hours:
-    - day: Mo-Sa
-      timings: 12-23
-    phone: 030 98339073
-  - name: Cocolo Ramen
-    address: Gipsstraße 3, 10119 Berlin
-    hours:
-    - day: Mo-Sa
-      timings: 18-00
-    - day: Sonntag
-      timings: "/"
-    website: http://kuchi.de/
-  - name: Marubi Ramen Japanische & Shanghai Spezialitäten
-    address: Schönhauser Alle 177, 10119 Berlin
-    hours:
-    - day: Mo-Sa
-      timings: 12-22
-    - day: Sonntag
-      timings: 17-22
-    phone: 030 47378858
-    website: http://marubi.eu/
-  - name: Takumi NINE Sapporo
-    address: Chauseestr. 124, 10115 Berlin
-    hours:
-    - day: Mo-Fr
-      timings: 12-15, 18 - 23:00
-    - day: Sa & So
-      timings: 13-22
-    website: http://takumininberlin.de/
 - city: Düsseldorf
   restaurants:
   - name: Takumi
@@ -280,7 +280,7 @@ data:
     - day: So
       timings: 12-22
     phone: 0211 39022053
-    website: http://takezo.de    
+    website: http://takezo.de
 ---
 
 <p>Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft.</p>
