@@ -141,14 +141,16 @@ h1 {
 
 h2 {
   font-family: 'Fugaz One', cursive;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: lighter;
   color:#ff5314
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: lighter
+  font-family: 'Fugaz One', cursive;
+  font-size: 24px;
+  font-weight: lighter;
+  color:#ff5314;
 }
 
 p {
@@ -870,6 +872,31 @@ img.post-icon {
   width: 64px;
   height: auto;
   padding-right: 10px;
+}
+
+p.restaurant_description {
+  padding-bottom: 6px;
+  font-style: italic;
+}
+
+p.restaurant_address {
+  
+}
+
+p.restaurant_hours {
+  padding-top: 6px;
+}
+
+p.restaurant_web {
+  padding-top: 6px;
+}
+
+p.post_subtitle {
+  font-size: 18px;
+}
+
+main.page-content {
+  margin-top: 120px;
 }
 
 @media screen and (max-width:1000px) {

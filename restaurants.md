@@ -283,12 +283,12 @@ data:
     website: http://takezo.de
 ---
 
-<p>Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft.</p>
+<p class="post_subtitle">Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft.</p>
 <br />
 <div id="outer_container">
 <div id="restaurants">
    {%- for city in page.data -%}
-  <h2>{{ city.city }}</h2>
+  <h3>{{ city.city }}</h3>
 	<iframe
 	  frameborder="0" style="border:0"
 	  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAyFrj9Bz_Hz8EFZP4XasDmyhH7ly4WjLA
@@ -298,15 +298,15 @@ data:
     {%- for restaurant in city.restaurants -%}
       <li>
         <h4>{{ restaurant.name }}</h4>
-        <p>{{ restaurant.description }}</p>
-        <p>Addresse: {{ restaurant.address }}</p>
-        <p>Telefon: {{ restaurant.phone }}</p>        
-        <p>Öffnungszeiten<br />
+        <p class="restaurant_description">{{ restaurant.description }}</p>
+        <p class="restaurant_address">Addresse: {{ restaurant.address }}</p>
+        <p>Telefon: {{ restaurant.phone }}</p>
+        <p class="restaurant_hours">Öffnungszeiten<br />
         {%- for hour in restaurant.hours -%}
           {{ hour.day}} : {{ hour.timings }}<br />
         {%- endfor -%}
         </p>
-        <p>Webseite: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
+        <p class="restaurant_web">Webseite: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
       </li>
     {%- endfor -%}
   </ol>
