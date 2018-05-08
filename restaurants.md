@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ramen Restaurants überall in Deutschland"
+icon: "assets/images/food.png"
 categories: misc
 data:
 - city: Nürnberg
