@@ -7,6 +7,12 @@ badges:
       url: restaurants.png
       alt: Restaurants
     cat: all cat1
+  - name: Supermarkt
+    url: /supermarkt
+    img: 
+      url: 001-bag.png
+      alt: ramenmarkt
+    cat: all cat1    
   - name: Spicy Meter
     img: 
       url: 001-ramen-6.png
@@ -21,11 +27,6 @@ badges:
     img: 
       url: 003-soup-1.png
       alt: student nudeln
-    cat: all cat1
-  - name: Ramenmarkt
-    img: 
-      url: 005-ramen-3.png
-      alt: ramenmarkt
     cat: all cat1
   - name: Ramenmarke
     img: 
