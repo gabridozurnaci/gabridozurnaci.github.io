@@ -8,6 +8,7 @@ data:
 - city: Hamburg
   restaurants:
   - name: Ramen Bar Zipang
+    description: Sobald ihr den Laden betretet fühlt ihr euch als wärt ihr in Tokio.
     address: Eppendorfer Weg 62, 20259 Hamburg
     phone: 040 30703777
     hours:
@@ -17,6 +18,7 @@ data:
       timings: 18:00-22:00
     website: http://ramen-bar.de
   - name: MOMO Ramen
+    description: Der einzige Ramenladen in der berühmten „Schanze“ - super lecker noch dazu.
     address: Margaretenstraße 58, 20357 Hamburg
     phone: 040 30703777
     hours:
@@ -26,6 +28,7 @@ data:
       timings: 13:00-22:00
     website: http://www.momo-ramen.de
   - name: Kokomo Noodle Club
+    description: Urbaner Look mit traditionellem Ambiente.
     address: Clemens-Schultz-Straße 41, 20359 Hamburg
     phone: 040 52155970
     hours:
@@ -37,12 +40,14 @@ data:
 - city: Berlin
   restaurants:
   - name: Cocolo Ramen X-berg
+    description: Hier findet ihr viel Auswahl und Variationen, wenn es um Ramen geht - ein sehr
     address: Paul-Lincke-Ufer 39-40, 10999 Berlin
     hours:
     - day: Montag - Samstag
       timings: 12:00 - 23:00
     phone: 030 98339073
   - name: Cocolo Ramen
+    description: Die kleine Schwester von „Cocolo Ramen X-berg“.
     address: Gipsstraße 3, 10119 Berlin
     hours:
     - day: Montag - Samstag
@@ -51,6 +56,7 @@ data:
       timings: "/"
     website: http://kuchi.de/
   - name: Marubi Ramen Japanische & Shanghai Spezialitäten
+    description: „Marubi kocht absolut ohne Glutamat“, heisst es auf der offiziellen Website. Also wer darauf verzichten möchte, sollte dort unbedingt vorbeischauen.
     address: Schönhauser Alle 177, 10119 Berlin
     hours:
     - day: Montag - Samstag
@@ -60,6 +66,7 @@ data:
     phone: 030 47378858
     website: http://marubi.eu/
   - name: Takumi NINE Sapporo
+    description: Takumi sollte dem einem oder anderen Ramenliebhaber inzwischen bekannt sein. Dieser hier ist nur ein weiterer erfolgreicher Laden der Kette aus Düsseldorf.  
     address: Chauseestr. 124, 10115 Berlin
     hours:
     - day: Montag - Freitag
@@ -69,7 +76,7 @@ data:
     website: http://takumininberlin.de/
 - city: Nürnberg
   restaurants:
-  - name: Ishihara
+  - name: Ishihara 
     description: Euer Essen wird live vor euch zubereitet und direkt auf den Teller
       serviert.
     address: Schottengasse 3, 90402 Nürnberg
@@ -254,6 +261,7 @@ data:
 - city: Düsseldorf
   restaurants:
   - name: Takumi
+    description: „Authentisch, Original und Japanisch.“
     address: Immermannstraße 28, 40210 Düsseldorf
     hours:
     - day: Montag - Freitag
@@ -266,6 +274,7 @@ data:
     website: http://brickny.com/takumi/
   - name: Naniwa Noodles & Soups
     address: Oststraße 55, 40211 Düsseldorf
+    description: Die Schlange vor dem Laden könnte durchaus mal länger sein, allerdings hat das seine Gründe.    
     hours:
     - day: Mittwoch - Montag
       timings: 11:30-21:30
@@ -274,14 +283,29 @@ data:
     phone: 0211 161799
     website: http://naniwa.de
   - name: Takezo
+    description: Ursprünglich ist die Kette „Takezo“ aus Japan. Also was könnte authentischer sein als das?  
     address: Immermannstraße 48, 40210 Düsseldorf
     hours:
     - day: Mittwoch - Samstag
       timings: 12-00
     - day: So
-      timings: 12:00 - 22:00
+      timings: 12:00-22:00
     phone: 0211 39022053
     website: http://takezo.de
+- city: Frankfurt
+  restaurants:    
+  - name: Muku
+    description: Japan in Frankfurt
+    address: Dreieichstr. 7, 60594 Frankfurt am Main
+    hours:
+    - day: Dienstag - Freitag
+      timings: 18:00-23:0
+    - day: Samstag
+      timings: 12:00-14:00, 18:00-23:00
+    - day: Sonntag
+      timings: 17:00 -21:00
+    phone: 069 48445153
+    website: http://www.muku-ramen.com
 ---
 
 <p class="post_subtitle">Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft.</p>
