@@ -6,6 +6,9 @@ icon: "assets/images/food.png"
 categories: misc
 data:
 - city: Hamburg
+  geo:
+    lat: 53.5511
+    lng: 9.9937
   restaurants:
   - name: Ramen Bar Zipang
     description: Sobald ihr den Laden betretet fühlt ihr euch als wärt ihr in Tokio.
@@ -38,6 +41,9 @@ data:
       timings: 12:00 - 23:00
     website: http://www.momo-ramen.de
 - city: Berlin
+  geo:
+    lat: 52.5200
+    lng: 13.4050
   restaurants:
   - name: Cocolo Ramen X-berg
     description: Hier findet ihr viel Auswahl und Variationen, wenn es um Ramen geht - ein sehr
@@ -75,6 +81,9 @@ data:
       timings: 13:00 - 22:00
     website: http://takumininberlin.de/
 - city: Nürnberg
+  geo:
+    lat: 49.4521
+    lng: 11.0767
   restaurants:
   - name: Ishihara 
     description: Euer Essen wird live vor euch zubereitet und direkt auf den Teller
@@ -113,6 +122,9 @@ data:
       timings: 12:00 - 15:00, 17:00 - 22:30
     website: http://www.kokororestaurant.de/
 - city: Stuttgart
+  geo:
+    lat: 48.7758
+    lng: 9.1829
   restaurants:
   - name: Tokio Dining
     description: Außer den leckeren Ramen werden bei Tokio Dining auch Sushi-Workshops
@@ -151,6 +163,9 @@ data:
       timings: 12:00 - 23:00
     website: http://mikoto-stuttgart.de
 - city: München
+  geo:
+    lat: 48.1351
+    lng: 11.5820
   restaurants:
   - name: TAKUMI München
     description: Hier gibt es sogar hausgemachte Nudeln.
@@ -174,6 +189,9 @@ data:
     - day: Sonntag
       timings: Geschlossen
 - city: Leipzig
+  geo:
+    lat: 51.3397
+    lng: 12.3731
   restaurants:
   - name: KIRIGAMI Ramen Leipzig
     description: Vegetarisches Ramen? Kein Problem!
@@ -200,6 +218,9 @@ data:
       timings: 14:00 - 22:00
     website: http://umaii.de
 - city: Köln
+  geo:
+    lat: 50.9375
+    lng: 6.9603
   restaurants:
   - name: Tobioka
     description: Toller Service, umfangreiche Karte.
@@ -232,6 +253,9 @@ data:
       timings: 18.00 - 22:00
     website: http://nikko-koeln.de
 - city: Dortmund
+  geo:
+    lat: 51.5136
+    lng: 7.4653
   restaurants:
   - name: Restaurant Kyoto - Dortmund
     description: 'Sorgt euch nicht, wenn ihr keine Zeit habt: Hier werden die Ramen
@@ -259,6 +283,9 @@ data:
     - day: Sonntag
       timings: 16:30 - 21:00
 - city: Düsseldorf
+  geo:
+    lat: 51.2277
+    lng: 6.7735
   restaurants:
   - name: Takumi
     description: „Authentisch, Original und Japanisch.“
@@ -293,6 +320,9 @@ data:
     phone: 0211 39022053
     website: http://takezo.de
 - city: Frankfurt
+  geo:
+    lat: 50.1109
+    lng: 8.6821
   restaurants:    
   - name: Muku
     description: Japan in Frankfurt
@@ -311,14 +341,38 @@ data:
 <p class="post_subtitle">Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft.</p>
 <br />
 <div id="outer_container">
+  <div id="map" style="height: 500px">  
+  </div>
+  <script>    
+    setTimeout(function(){
+      var map = new GMaps({
+        div: '#map',
+        lat: 51.1657,
+        lng: 10.4515,
+        zoom: 6
+      });
+      $.getJSON("/data/restaurants.json", function(response){
+        $(response.data).each(function (index, restaurant) {
+          map.addMarker({
+              lat: restaurant.geo.lat,
+              lng: restaurant.geo.lng,
+              title: restaurant.city,
+              // infoWindow: {
+              //   content: '<a href="#'+restaurant.city+'">Click Here</a>'
+              // }
+          });
+        });
+      })
+    }, 1000);
+  </script>
 <div id="restaurants">
    {%- for city in page.data -%}
-  <h3>{{ city.city }}</h3>
-	<iframe
-	  frameborder="0" style="border:0"
-	  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAyFrj9Bz_Hz8EFZP4XasDmyhH7ly4WjLA
-	    &q={{ city.city }}&language=de">
-	</iframe>
+  <h3 id="{{city.city}}">{{ city.city }}</h3>
+  <!-- <iframe
+    frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAyFrj9Bz_Hz8EFZP4XasDmyhH7ly4WjLA
+      &q={{ city.city }}&language=de">
+  </iframe> -->
   <ol>
     {%- for restaurant in city.restaurants -%}
       <li>
@@ -337,8 +391,5 @@ data:
     {%- endfor -%}
   </ol>
   {%- endfor -%}
- </div>
- <div id="map">
-   
  </div>
 </div>
