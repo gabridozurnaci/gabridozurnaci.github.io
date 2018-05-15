@@ -10,7 +10,7 @@ badges:
   - name: Supermarkt
     url: /supermarkt
     img: 
-      url: 001-bag.png
+      url: 002-cart.png
       alt: ramenmarkt
     cat: all cat1    
   - name: Spicy Meter
