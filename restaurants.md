@@ -45,7 +45,7 @@ data:
 <<<<<<< HEAD
     - day: Sonntag - Donnerstag
 =======
-    - day: Sonntag - Do
+    - day: Sonntag - Donnerstag
 >>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
       timings: 12:00 - 22:00
     - day: Freitag & Samstag
@@ -68,7 +68,7 @@ data:
 <<<<<<< HEAD
       timings: 18:00 - 0:00
 =======
-      timings: 18:00 - 00:00
+      timings: 18:00 - 0:00
 >>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Sonntag
       timings: "Geschlossen"
