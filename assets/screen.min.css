@@ -912,7 +912,7 @@ p.post_subtitle {
 }
 
 main.page-content {
-  margin-top: 95px;
+  margin-top: 135px;
 }
 
 header.post-header {
@@ -1003,7 +1003,7 @@ section.promo .promo_text {
   .contact__card-title {
     text-align: center
   }
-  .page-header__logo h1 {
+  .page-header__logo h1, h2 {
     font-size: 14px;
   }
   .page-header__logo span {
@@ -1056,7 +1056,7 @@ section.promo .promo_text {
     padding-bottom: 20px;
     color: #fff;
   }
-  section.promo img {
+  img.header {
     display: none;
   }
   .page-header__nav {

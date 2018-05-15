@@ -5,7 +5,7 @@ description: "Instant Ramen haben inzwischen euer Herz erobert, doch ab und an m
 categories: misc
 ---
 
-<img class="responsive" src="{{ "/assets/images/info_banner.jpg" | absolute_url }}" />
+<img class="responsive header" src="{{ "/assets/images/info_banner.jpg" | absolute_url }}" />
 <br />
 <br />
 Ramen (jap. ラーメン) sind eigentlich eine Art von Nudeln, die vor allem in Japan sehr berühmt und beliebt sind. Ursprünglich kommen Ramen aus China (Lamian / 拉麵), allerdings wurden sie in Japan revolutioniert. So gibt es überall in Japan geschätzt 200 000 Restaurants, die Ramen verkaufen und sich auf die Zubereitung des Gerichts spezialisiert haben. Mittlerweile sind „Ramen“ (wie wir wissen) überall auf der Welt bekannt. Nur wie kam es dazu?
