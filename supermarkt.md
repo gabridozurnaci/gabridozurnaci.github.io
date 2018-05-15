@@ -244,7 +244,7 @@ data:
     {%- for shop in city.shops -%}
       <li>
         <h4>{{ shop.name }}</h4>
-        <p class="restaurant_address">Addresse: {{ shop.address }}</p>
+        <p class="restaurant_address">Adresse: {{ shop.address }}</p>
         <p class="restaurant_hours"><u>Öffnungszeiten</u></p>
         <table class="hours">
         {%- for hour in shop.hours -%}

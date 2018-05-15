@@ -18,7 +18,7 @@ data:
 <<<<<<< HEAD
       timings: 18:00 - 22:00
 =======
-      timings: 18:00-22:00
+      timings: 18:00 - 22:00
 >>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     website: http://ramen-bar.de
   - name: MOMO Ramen
@@ -32,9 +32,9 @@ data:
     - day: Samstag & Sonntag
       timings: 13:00 - 22:00
 =======
-      timings: 18:00-22:00
+      timings: 18:00 - 22:00
     - day: Samstag & Sonntag
-      timings: 13:00-22:00
+      timings: 13:00 - 22:00
 >>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     website: http://www.momo-ramen.de
   - name: Kokomo Noodle Club
@@ -408,7 +408,7 @@ data:
       <li>
         <h4>{{ restaurant.name }}</h4>
         <p class="restaurant_description">{{ restaurant.description }}</p>
-        <p class="restaurant_address">Addresse: {{ restaurant.address }}</p>
+        <p class="restaurant_address">Adresse: {{ restaurant.address }}</p>
         <p>Telefon: {{ restaurant.phone }}</p>
         <p class="restaurant_hours"><u>Öffnungszeiten</u></p>
         <table class="hours">
@@ -416,7 +416,7 @@ data:
           <tr><td><p>{{ hour.day}}</p></td><td><p>{{ hour.timings }}</p></td></tr>
         {%- endfor -%}
         </table>        
-        <p class="restaurant_web">Webseite: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
+        <p class="restaurant_web">Website: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
       </li>
     {%- endfor -%}
   </ol>
