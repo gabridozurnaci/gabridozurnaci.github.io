@@ -15,11 +15,7 @@ data:
     - day: Montag
       timings: Geschlossen
     - day: Dienstag - Sonntag
-<<<<<<< HEAD
       timings: 18:00 - 22:00
-=======
-      timings: 18:00 - 22:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     website: http://ramen-bar.de
   - name: MOMO Ramen
     description: Der einzige Ramenladen in der berühmten „Schanze“ - super lecker noch dazu.
@@ -27,26 +23,16 @@ data:
     phone: 040 30703777
     hours:
     - day: Montag - Freitag
-<<<<<<< HEAD
       timings: 18:00 - 22:00
     - day: Samstag & Sonntag
       timings: 13:00 - 22:00
-=======
-      timings: 18:00 - 22:00
-    - day: Samstag & Sonntag
-      timings: 13:00 - 22:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     website: http://www.momo-ramen.de
   - name: Kokomo Noodle Club
     description: Urbaner Look mit traditionellem Ambiente.
     address: Clemens-Schultz-Straße 41, 20359 Hamburg
     phone: 040 52155970
     hours:
-<<<<<<< HEAD
     - day: Sonntag - Donnerstag
-=======
-    - day: Sonntag - Donnerstag
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
       timings: 12:00 - 22:00
     - day: Freitag & Samstag
       timings: 12:00 - 23:00
@@ -65,11 +51,7 @@ data:
     address: Gipsstraße 3, 10119 Berlin
     hours:
     - day: Montag - Samstag
-<<<<<<< HEAD
       timings: 18:00 - 0:00
-=======
-      timings: 18:00 - 0:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Sonntag
       timings: "Geschlossen"
     website: http://kuchi.de/
@@ -88,11 +70,7 @@ data:
     address: Chauseestr. 124, 10115 Berlin
     hours:
     - day: Montag - Freitag
-<<<<<<< HEAD
-      timings: 12:00 - 15:00 , 18:00 - 23:00
-=======
       timings: 12:00 - 15:00, 18:00 - 23:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Samstag & Sonntag
       timings: 13:00 - 22:00
     website: http://takumininberlin.de/
@@ -117,15 +95,9 @@ data:
     hours:
     - day: Montag
       timings: Geschlossen
-<<<<<<< HEAD
-    - day: Dienstag -- Mittwoch
-      timings: 17:30 - 21:30
-    - day: Donnerstag — Samstag
-=======
     - day: Dienstag - Mittwoch
       timings: 17:30 - 21:30
     - day: Donnerstag—Samstag
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
       timings: 11:30 - 14:30, 17:30 - 23:00
     - day: Sonntag
       timings: 11:30 - 14:30, 17:30 - 21:30
@@ -172,15 +144,9 @@ data:
     phone: 0711 50432203
     hours:
     - day: Montag – Freitag
-<<<<<<< HEAD
-      timings: 12:00 - 15:00, 17:00 - 0:00
-    - day: Freitag - Samstag
-      timings: 12:00 - 0:00
-=======
       timings: 12:00-15:00, 17:00-00:00
     - day: FreitagSamstag
       timings: 12:00-0:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Sonntag & Feiertag
       timings: 12:00 - 23:00
     website: http://mikoto-stuttgart.de
@@ -204,13 +170,8 @@ data:
     phone: 089 12739374
     hours:
     - day: Montag - Samstag
-<<<<<<< HEAD
-      timings: 11:30 - 21:00
-    - day: Samstag
-=======
       timings: 11:30-21:00
     - day: Sonntag
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
       timings: Geschlossen
 - city: Leipzig
   restaurants:
@@ -220,11 +181,7 @@ data:
     phone: 0341 68416888
     hours:
     - day: Montag - Freitag
-<<<<<<< HEAD
-      timings: 11:00 - 14:30, 17:30 - 21:00
-=======
       timings: 11:00-14:30, 17:30-21:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Samstag
       timings: 17:30 - 22:00
     - day: Sonntag
@@ -236,11 +193,7 @@ data:
     phone: 0341 2222575
     hours:
     - day: Montag - Freitag
-<<<<<<< HEAD
-      timings: 12:00 - 22:00
-=======
       timings: 12:00-22:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Samstag
       timings: Geschlossen
     - day: Sonntag
@@ -254,15 +207,9 @@ data:
     phone: 0221 3489888
     hours:
     - day: Montag - Freitag
-<<<<<<< HEAD
-      timings: 12:00 - 14:30, 18:30 - 22:30
-    - day: Samstag & Sonntag
-      timings: 18:30 - 22:30
-=======
       timings: 12:00-14:30, 18:30-22:30
     - day: Samstag - Sonntag
       timings: 18:30-22:30
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     website: http://www.tobioka.de/
   - name: Shokudo Nudelhaus & Sushi
     description: So frisch und bekömmlich gibt es die im Umkreis sonst nirgendwo.
@@ -270,15 +217,9 @@ data:
     phone: 0221 2760188
     hours:
     - day: Montag - Samstag
-<<<<<<< HEAD
-      timings: 12:00 - 16:00, 17:00 - 23:00
-    - day: Samstag & Sonntag
-      timings: 15:00 - 23:00
-=======
       timings: 12:00-16:00, 17:00-23:00
     - day: Samstag - Sonntag
       timings: 15:00-23:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
   - name: Restaurant NIKKO
     description: Gerichte aus frischen Zutaten, zubereitet nach den Techniken der
       traditionellen japanischen Küche
@@ -287,13 +228,8 @@ data:
     hours:
     - day: Montag - Freitag
       timings: 12:00 - 14:30,  18:30 - 22:30
-<<<<<<< HEAD
-    - day: Samstag - Sonntag & Feiertage
-      timings: 18:00 - 22:00
-=======
     - day: Samstag - Sonntag & Freitag
       timings: 18.00 - 22:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     website: http://nikko-koeln.de
 - city: Dortmund
   restaurants:
@@ -304,11 +240,7 @@ data:
     phone: 0231 5898400
     hours:
     - day: Montag - Donnerstag
-<<<<<<< HEAD
-      timings: 12:00-15:00, 17:00-22:30
-=======
       timings: 12:00 - 15:00, 17:00 - 22:30
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Freitag
       timings: 12:00 - 15:00, 17:00 - 23:00
     - day: Samstag
@@ -333,15 +265,9 @@ data:
     address: Immermannstraße 28, 40210 Düsseldorf
     hours:
     - day: Montag - Freitag
-<<<<<<< HEAD
-      timings: 11:30 - 22:30
-    - day: Samstag
-      timings: 11:30 - 23:30
-=======
       timings: 11:30 -22:30
     - day: Samstag
       timings: 11:30 - 23:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     - day: Sonntag
       timings: 11:30 -23:30
     phone: 0211 1793308
@@ -350,11 +276,7 @@ data:
     address: Oststraße 55, 40211 Düsseldorf
     description: Die Schlange vor dem Laden könnte durchaus mal länger sein, allerdings hat das seine Gründe.    
     hours:
-<<<<<<< HEAD
-    - day: Montag - Sonntag
-=======
     - day: Mittwoch - Montag
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
       timings: 11:30-21:30
     - day: Dienstag
       timings: "Geschlossen"
@@ -365,15 +287,9 @@ data:
     address: Immermannstraße 48, 40210 Düsseldorf
     hours:
     - day: Mittwoch - Samstag
-<<<<<<< HEAD
-      timings: 12:00 - 00:00
-    - day: Sonntag
-      timings: 12:00 - 22:00
-=======
       timings: 12-00
     - day: So
       timings: 12:00-22:00
->>>>>>> fb4726387026cc9200a67527f1ab45284a6c647a
     phone: 0211 39022053
     website: http://takezo.de
 - city: Frankfurt
