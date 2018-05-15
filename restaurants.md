@@ -357,12 +357,21 @@ data:
               lat: restaurant.geo.lat,
               lng: restaurant.geo.lng,
               title: restaurant.city,
-              // infoWindow: {
-              //   content: '<a href="#'+restaurant.city+'">Click Here</a>'
-              // }
+            click: function(e) {
+              map.setCenter({
+                lat: restaurant.geo.lat,
+                lng: restaurant.geo.lng,
+              })
+              //map.zoomIn(6)
+            }
           });
         });
       })
+      // map.drawOverlay({
+      //   lat: -12.043333,
+      //   lng: -77.028333,
+      //   content: '<div class="overlay">Lima</div>'
+      // });
     }, 1000);
   </script>
 <div id="restaurants">
