@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wo kannst du Instant Ramen kaufen?"
-description: "Wo kannst du Instant Ramen kaufen?"
+description: "Du weißt nicht wo du deine zukünftigen Lieblingsramen findest? Wir haben euch asiatische Supermärkte mit den besten Bewertungen zusammengesucht. Scrollt doch einfach mal runter."
 icon: "assets/images/001-bag.png"
 categories: misc
 data:
