@@ -870,6 +870,10 @@ img.responsive {
   height: auto;
 }
 
+#restaurants {
+  margin-top: 20px;
+}
+
 #restaurants ol, ul {
   margin-top: 10px;
   padding: 0;
@@ -888,6 +892,10 @@ img.post-icon {
   width: 64px;
   height: auto;
   padding-right: 10px;
+}
+
+.restaurant_entry h4 {
+  font-size: 16px;
 }
 
 p.restaurant_description {
@@ -929,6 +937,30 @@ table.hours td {
 
 section.promo .promo_text {
   display: none;
+}
+
+#cities ul#city_list li {
+  height: 45px;
+  cursor: pointer;
+  background: linear-gradient(#ffffff, #e5e5e5);
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+  border-style: solid;
+  display: table-cell;
+}
+
+#cities ul#city_list li.selected {
+  height: 45px;
+  cursor: pointer;
+  background: linear-gradient(#e5e5e5, #ffffff);
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+  border-style: solid;
+  display: table-cell;
 }
 
 @media screen and (max-width:1000px) {
