@@ -4,7 +4,7 @@ badges:
   - name: Info
     url: /info
     img: 
-      url: info.png
+      url: 005-ramen-3.png
       alt: info
     cat: all cat1
   - name: Restaurants
