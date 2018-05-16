@@ -920,7 +920,7 @@ p.post_subtitle {
 }
 
 main.page-content {
-  margin-top: 135px;
+  margin-top: 95px;
 }
 
 header.post-header {
@@ -976,6 +976,9 @@ section.promo .promo_text {
 }
 
 @media screen and (max-width:800px) {
+  main.page-content {
+    margin-top: 135px;
+  }
   .contact__form {
     max-width: 50%;
     margin: 0 2% 0 8%
