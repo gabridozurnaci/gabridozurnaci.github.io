@@ -953,9 +953,9 @@ data:
           <tr><td><p>{{ hour.day}}</p></td><td><p>{{ hour.timings }}</p></td></tr>
         {%- endfor -%}
         </table>
-        <p class="restaurant_web">Website: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
+        <p class="restaurant_web">Website: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>     
+      </div>
      </li>
-    </div>
     {%- endfor -%}
   </ol>
   {%- endfor -%}
