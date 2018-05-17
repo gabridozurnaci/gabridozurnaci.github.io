@@ -954,7 +954,7 @@ data:
         {%- endfor -%}
         </table>
         <p class="restaurant_web">Website: <a href="{{ restaurant.website }}">{{ restaurant.website }}</a></p>
-      </li>
+     </li>
     </div>
     {%- endfor -%}
   </ol>
