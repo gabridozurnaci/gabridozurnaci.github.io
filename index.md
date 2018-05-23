@@ -24,10 +24,11 @@ badges:
       url: 001-ramen-6.png
       alt: spicy-meter
     cat: all flat
-  - name: Student Nudeln
+  - name: Über uns
+    url: /ueberuns
     img: 
-      url: 003-soup-1.png
-      alt: student nudeln
+      url: 004-dancers.png
+      alt: über uns
     cat: all cat1
   - name: Ramenmarke
     img: 
