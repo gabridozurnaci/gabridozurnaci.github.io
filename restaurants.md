@@ -468,7 +468,7 @@ data:
     review_id: 1PXwEOXQb9Y8U0JieyY1_Q
 ---
 <script>
-  $(function(){
+  $(window).ready(function(){
     var map = new GMaps({
       div: '#map',
       lat: 51.1657,
