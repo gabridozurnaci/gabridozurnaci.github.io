@@ -280,8 +280,11 @@ body {
 .contact__card-title {
   margin-bottom: 20px;
   font-size: 14px;
-  line-height: .5;
   text-transform: uppercase
+}
+
+h3.contact__card-title a {
+  color: #ff5314;
 }
 
 .contact__card-item {
@@ -881,6 +884,13 @@ img.responsive {
 
 #restaurants ol li {
   padding-bottom: 10px;
+}
+
+.post h2 {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 500;
+  text-transform: none;
 }
 
 h1.post-title {
