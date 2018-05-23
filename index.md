@@ -25,17 +25,17 @@ badges:
       url: 007-ramen-2.png
       alt: rezept
     cat: all cat1  
-  - name: Spicy Meter
-    img: 
-      url: 001-ramen-6.png
-      alt: spicy-meter
-    cat: all flat
   - name: Über uns
     url: /ueberuns
     img: 
       url: 004-dancers.png
       alt: über uns
-    cat: all cat1
+    cat: all cat1  
+  - name: Spicy Meter
+    img: 
+      url: 001-ramen-6.png
+      alt: spicy-meter
+    cat: all flat
   - name: Ramenmarke
     img: 
       url: 006-noodles-2.png
