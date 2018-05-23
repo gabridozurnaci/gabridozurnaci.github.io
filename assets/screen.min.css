@@ -904,12 +904,30 @@ img.post-icon {
   padding-right: 10px;
 }
 
+.restaurant_entry {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  display: block; 
+  max-width: 700px; 
+  min-width: 320px; 
+  width: 100%;
+  padding: 10px;
+}
+
 .restaurant_entry h4 {
   font-size: 16px;
+  color: #D03800;
+}
+
+.restaurant_entry hr{
+  border: none;
+  height: 1px;
+  background-color: #CCC;
 }
 
 p.restaurant_description {
-  padding-bottom: 6px;
+  margin-top: 6px;
   font-style: italic;
 }
 
