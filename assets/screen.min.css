@@ -893,6 +893,14 @@ img.responsive {
   text-transform: none;
 }
 
+.post ul,ol {
+  padding-left: 20px;
+}
+
+.post ul,ol li {
+  font-weight: lighter;
+}
+
 h1.post-title {
   display: inline;
   font-size: 28px;

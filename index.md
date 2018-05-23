@@ -19,6 +19,12 @@ badges:
       url: 002-cart.png
       alt: ramenmarkt
     cat: all cat1    
+  - name: Rezept
+    url: /rezept
+    img: 
+      url: 007-ramen-2.png
+      alt: rezept
+    cat: all cat1  
   - name: Spicy Meter
     img: 
       url: 001-ramen-6.png
@@ -34,11 +40,6 @@ badges:
     img: 
       url: 006-noodles-2.png
       alt: ramenmarke
-    cat: all cat1
-  - name: Rezept
-    img: 
-      url: 007-ramen-2.png
-      alt: rezept
     cat: all cat1
   - name: Toppings usw.
     img: 
