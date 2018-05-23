@@ -893,8 +893,20 @@ img.responsive {
   text-transform: none;
 }
 
-.post ul,ol {
+.post ul {
   padding-left: 20px;
+}
+
+.post ol {
+  padding-left: 15px;
+}
+
+.post ol li {
+  padding-left: 4px;
+}
+
+.post ul li {
+  padding-left: 0px;
 }
 
 .post ul,ol li {
