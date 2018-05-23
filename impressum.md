@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Impressum"
-description: "Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft."
+description: "Impressum"
 categories: misc
 ---
 

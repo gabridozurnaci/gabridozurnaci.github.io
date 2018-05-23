@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Über uns"
-description: "Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft."
+description: "Wir sind Joie Anne und Can, deine Ramenratgeber. Diese Website ist im Zuge unseres Kurses „Suchmaschinenoptimierung“ der HAW Hamburg entstanden. Man könnte diese Website also als eine Art Übung betrachten. Daher wird sie nach Ende unseres Semesters im Jahr 2018 leider nur noch gelegentlich aktualisiert werden."
 categories: misc
 ---
 
