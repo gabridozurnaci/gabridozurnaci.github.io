@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /assets/
 Disallow: /data/
 
 Sitemap: https://instantramen.de/sitemap.xml
