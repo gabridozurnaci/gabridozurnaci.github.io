@@ -256,14 +256,14 @@ data:
         })
         map.setZoom(13)
         map.removeMarkers()
-        //addMarkers(map, city)
+        addMarkers(map, city)
         replaceCity(city)
       })
     })
   });
   function addMarkers(map, city) {
       var latlngbounds = new google.maps.LatLngBounds();
-        $(city.restaurants).each(function(index, restaurant) {
+        $(city.shops).each(function(index, restaurant) {
           latlngbounds.extend(new google.maps.LatLng(restaurant.location.lat, restaurant.location.lng))     
           map.addMarker({
             lat: restaurant.location.lat,
@@ -274,7 +274,7 @@ data:
             }
           });        
         });
-        if (city.restaurants.length > 1) {
+        if (city.shops.length > 1) {
           map.fitBounds(latlngbounds);
         }   
       }
