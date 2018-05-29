@@ -228,22 +228,101 @@ data:
             phone: '069 291766'
 
 ---
-
+<script>
+  $(window).ready(function(){
+    var map = new GMaps({
+      div: '#map',
+      lat: 51.1657,
+      lng: 10.4515,
+      zoom: 6
+    });
+    $.getJSON("/data/supermarkets.json", function(response){
+      $(response.data).each(function (index, city) {
+        $('#data_container #cities ul').append('<li>'+city.city+'</li>')
+        map.addMarker({
+          lat: city.geo.lat,
+          lng: city.geo.lng,
+          title: city.city
+        });
+      });
+      // CLick Handlers
+      $('#data_container #cities ul li').click(function(data) {
+        $('#data_container #cities ul li').removeClass('selected');
+        $(this).addClass('selected')
+        var city = response.data[$(this).index()]
+        map.setCenter({
+          lat: city.geo.lat,
+          lng: city.geo.lng,
+        })
+        map.setZoom(13)
+        map.removeMarkers()
+        //addMarkers(map, city)
+        replaceCity(city)
+      })
+    })
+  });
+  function addMarkers(map, city) {
+      var latlngbounds = new google.maps.LatLngBounds();
+        $(city.restaurants).each(function(index, restaurant) {
+          latlngbounds.extend(new google.maps.LatLng(restaurant.location.lat, restaurant.location.lng))     
+          map.addMarker({
+            lat: restaurant.location.lat,
+            lng: restaurant.location.lng,
+            title: restaurant.name,
+            infoWindow: {
+              content: getRestaurantHTML(restaurant)
+            }
+          });        
+        });
+        if (city.restaurants.length > 1) {
+          map.fitBounds(latlngbounds);
+        }   
+      }
+      function replaceCity(city) {
+        var newContent = '<div id="restaurants"><h3>'+city.city+'</h3><ol>'
+        $(city.shops).each(function(index, shop) {
+          newContent+='<li>'+getRestaurantHTML(shop)+'</li>'
+        })      
+        newContent+='</ol></div>'
+        $('#restaurants').replaceWith(newContent)
+      }
+      function getRestaurantHTML(shop) {        
+        var content = '<div class="restaurant_entry">'
+        content+='<h4>'+shop.name+'</h4>'
+        content+='<p class="restaurant_address">Adresse: '+shop.address+'</p>'
+        content+='<p class="restaurant_hours"><u>Öffnungszeiten</u></p>'
+        content+='<table class="hours">'        
+        $(shop.hours).each(function(index, hour){
+          content+='<tr><td><p>'+hour.day+'</p></td><td><p>'+hour.timings+'</p></td></tr>'
+        });  
+        content+='</table>'
+        content+='<p class="restaurant_phone">Telefon: '+shop.phone+'</p>'
+        if (shop.website) {
+          content+='<p class="restaurant_web">Website: <a href="'+shop.website+'">'+shop.website+'</a></p>'  
+        }
+        content+='</div>'
+        return content
+      }
+      </script>
 <!-- <p class="post_subtitle">Wo kannst du Instant Ramen kaufen?</p> -->
-Du weißt nicht wo du deine zukünftigen Lieblingsramen findest? Wir haben euch asiatische Supermärkte mit den besten Bewertungen zusammengesucht. Scrollt doch einfach mal runter.
-<br />
+Du weißt nicht wo du deine zukünftigen Lieblingsramen findest? Wir haben euch asiatische Supermärkte mit den besten Bewertungen zusammengesucht. Scrollt doch einfach mal runter. 
+<br /><br />
 <div id="outer_container">
+  <div id="data_container">
+    <div id="map" style="height: 500px">  
+    </div>
+    <div id="cities">
+      <ul id="city_list">
+      </ul>  
+    </div>
+  </div>  
 <div id="restaurants">
    {%- for city in page.data -%}
   <h3>{{ city.city }}</h3>
-	<iframe
-	  frameborder="0" style="border:0"
-	  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAyFrj9Bz_Hz8EFZP4XasDmyhH7ly4WjLA
-	    &q={{ city.city }}&language=de">
-	</iframe>
   <ol>
     {%- for shop in city.shops -%}
       <li>
+        <div class="restaurant_entry">
         <h4>{{ shop.name }}</h4>
         <p class="restaurant_address">Adresse: {{ shop.address }}</p>
         <p class="restaurant_hours"><u>Öffnungszeiten</u></p>
@@ -253,12 +332,10 @@ Du weißt nicht wo du deine zukünftigen Lieblingsramen findest? Wir haben euch 
         {%- endfor -%}
         </table>        
         <p>Telefon: {{ shop.phone }}</p>
+      </div>
       </li>
     {%- endfor -%}
   </ol>
   {%- endfor -%}
- </div>
- <div id="map">
-   
  </div>
 </div>
