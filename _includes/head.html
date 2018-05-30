@@ -7,6 +7,7 @@
   <meta name="format-detection" content="telephone=no">  
   <meta name="google-site-verification" content="VEeaSASnisBs4TZR8ZgSaNbK-Josvuf7fEgxND_Av7U" />
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {% if page.url == '/restaurants.html' or page.url == '/supermarkt.html'%}
   <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -15,6 +16,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.js"></script>  
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASd6BK_PjUWKZxsWLPzzaIWQOhjtfGkMo" type="text/javascript"></script>
   <script src="{{ "/assets/js/gmaps.js" | relative_url }}"></script>
+  {% endif %}
   <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="{{ "/assets/screen.min.css" | relative_url }}">
