@@ -893,6 +893,14 @@ img.responsive {
   text-transform: none;
 }
 
+.post ul {
+  padding-left: 20px;
+}
+
+ul#city_list {
+  padding-left: 0px;
+}
+
 .post ol {
   padding-left: 15px;
 }

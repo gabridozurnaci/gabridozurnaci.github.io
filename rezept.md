@@ -89,3 +89,40 @@ Anleitung
 7.	Geben sie die Eier-Käse-Mischung in die Pfanne. 
 8.	Servieren sie es heiß
 
+<br /><br />
+### Chicken Yakisoba
+
+Zutaten
+*	1/2 Kopfsalat
+*	1 mittelgroße gelbe Zwiebel
+*	2 mittelgroße Karotten
+*	Eine kleine Ingwerzehe
+*	1 Hähnchenbrustfilet
+*	2 Esslöffel Gemüseöl
+*	2 o. 3 Packungen Ramennudeln (ohne toppings)
+*	1 Esslöffel Sesamöl (optional)
+*	1/4 Becher Sojasoße
+*	1/4 Becher Worcestersoße 
+*	2 Esslöffel Ketchup
+*	1 Esslöffel Srirachasoße 
+*	1 Esslöffel Zucker 
+
+<br />
+Anleitung
+<br />
+1. Vor Beginn des Kochens sollten sie das Gemüse und das Fleisch vorbereiten:
+    - Ingwer schälen und mit einer Reibe zerkleinern
+    - Karotten schälen und mit einer Reibe zerkleinern
+    - Den Kern des Kopfsalates entfernen und in Streifen schneiden
+    - Das Hähnchen ebenfalls in Streifen schneiden
+2. Wasser in einem mittelgroßen Topf anfangen köcheln zu lassen 
+3. Dann das Gemüseöl in einer Pfanne erhitzen, wenn es heiß ist, Ingwer hinzugeben und 	eine halbe Minute bis eine Minute braten lassen
+4. Hähnchen hinzugeben und solange braten bis es nicht mehr rosa ist. (ca. 5 Minuten)
+5. Wenn das Hähnchen durch ist, Gemüse hinzugeben und 5-10 Minuten braten lassen.
+6. Nudeln in das heiße Wasser geben und 2-3 Minuten köcheln lassen
+7. Anschließend abgießen und zurück in den Topf mit etwas Sesamöl geben, damit sie nicht 	verkleben
+8. In einer kleinen Schüssel dann Sojasoße, Sriachasoße, Worcestersoße, Ketchup und 		Zucker vermischen (weniger Sriracha hinzugeben, wenn es nicht zu scharf werden soll)
+9. Soße zum Gemüse und Hähnchen dazugeben
+10. Nudeln hinzugeben und alles kurz weiter braten lassen und vermischen.
+11. Fertig zum Servieren - Guten Appetit! 
+
