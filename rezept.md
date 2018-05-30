@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DIY- Instant Ramen"
-description: "Wir wissen es schon, ihr liebt die kleinen Fertigsuppenpäckchen. Instant-Ramen schmeckt lecker, macht satt und lässt sich schnell und einfach zubereiten. Doch kannst du aus dem Instantnudeln noch mehr machen! Mit wenigen zusätzlichen Zutaten kannst du ein vollwertiges Gericht zaubern. Lass dich von diesen Rezepten inspirieren und wir garantieren es, es wird tausendmal leckerer. Guten Appetit!"
+description: "Wir wissen es schon, ihr liebt die kleinen Fertigsuppenpäckchen. Instant-Ramen schmeckt lecker, macht satt und lässt sich schnell und einfach zubereiten. Doch kannst du aus dem Instantnudeln noch mehr machen!"
 categories: misc
 ---
 

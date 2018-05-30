@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Was ist „Ramen“?"
-description: "Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft."
+description: "Ramen (jap. ラーメン) sind eigentlich eine Art von Nudeln, die vor allem in Japan sehr berühmt und beliebt sind."
 categories: misc
 ---
 
-<img class="responsive header" src="{{ "/assets/images/info_banner.jpg" | absolute_url }}" />
+<img class="responsive header" src="{{ "/assets/images/info_banner.jpg" | absolute_url }}" alt="info_banner" />
 <br />
 <br />
 Ramen (jap. ラーメン) sind eigentlich eine Art von Nudeln, die vor allem in Japan sehr berühmt und beliebt sind. Ursprünglich kommen Ramen aus China (Lamian / 拉麵), allerdings wurden sie in Japan revolutioniert. So gibt es überall in Japan geschätzt 200 000 Restaurants, die Ramen verkaufen und sich auf die Zubereitung des Gerichts spezialisiert haben. Mittlerweile sind „Ramen“ (wie wir wissen) überall auf der Welt bekannt. Nur wie kam es dazu?
