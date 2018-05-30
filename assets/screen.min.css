@@ -1030,6 +1030,9 @@ section.promo .promo_text {
 @media screen and (max-width:800px) {
   main.page-content {
     margin-top: 135px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
   }
   .contact__form {
     max-width: 50%;
@@ -1062,6 +1065,12 @@ section.promo .promo_text {
 }
 
 @media screen and (max-width:640px) {
+  main.page-content {
+    margin-top: 135px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
   section.promo img {
     display: none;
   }
@@ -1127,6 +1136,12 @@ section.promo .promo_text {
 }
 
 @media screen and (max-width:480px) {
+  main.page-content {
+    margin-top: 135px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
   .contact__form-submit {
     float: none;
     margin: 0 auto
