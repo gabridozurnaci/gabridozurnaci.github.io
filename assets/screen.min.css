@@ -160,7 +160,8 @@ p {
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: #ff5314;
 }
 
 html,
@@ -989,6 +990,27 @@ table.hours td {
 
 section.promo .promo_text {
   display: none;
+}
+
+table.products th {
+  color: #A42C00;
+  background-color: #ffad86;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table.products tr.odd {
+  
+}
+
+table.products tr.even {
+  background-color: #FFEBDE;
+}
+
+table.products td,th {
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;  
 }
 
 #cities ul#city_list li {

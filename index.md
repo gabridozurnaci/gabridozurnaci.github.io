@@ -37,6 +37,7 @@ badges:
       alt: spicy-meter
     cat: all flat
   - name: Ramenmarke
+    url: /ramenmarke
     img: 
       url: 006-noodles-2.png
       alt: ramenmarke
