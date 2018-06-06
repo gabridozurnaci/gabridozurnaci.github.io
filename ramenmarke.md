@@ -150,7 +150,7 @@ data:
        portion: 100 g
        calories: 90 kcal
        price: 1,99 €
-       spiciness: 3.5       
+       spiciness: 3.5    
 ---
 
 <br />
