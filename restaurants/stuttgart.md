@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Ramen Restaurants überall in Deutschland"
-description: "Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft."
+title: "Ramen Restaurants überall in Stuttgart"
+description: "Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Stuttgart betrifft."
 icon: "assets/images/food.png"
 categories: misc
 city: Stuttgart
