@@ -3,10 +3,26 @@ layout: default_home
 ---
 
 <div class="home">
-	{%- include promo.html -%}	
+	{%- include promo.html -%}
+	{{ content }}
 	<section class="portfolio js-portfolio" id="portfolio">
 		<div class="portfolio__inner">
-      {{ content }}
+			{%- if page.badges.size > 0 -%}
+			<ul class="portfolio__content">
+				{%- for badge in page.badges -%}
+				<li class="portfolio__item js-item" data-cat="{{ badge.cat }}">
+          {%- if badge.url -%}
+            <a href="{{ badge.url }}">
+          {% else %}
+            <a href="#">
+          {%- endif -%}
+              <img class="portfolio__item-img js-lazy" src="assets/images/{{ badge.img.url }}" alt="{{ badge.img.url }}">
+              <div class="portfolio__item-caption"><span class="portfolio__item-title">{{ badge.name }}</span></div>
+          </a>
+				</li>
+				{%- endfor -%}
+			</ul>
+			{%- endif -%}
 		</div>
 	</section>
 </div>
