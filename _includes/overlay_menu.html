@@ -1,0 +1,64 @@
+<div class="overlay_menu hidden_menu">
+  <div class="close_menu">
+    <a href="#" onClick="closeMenu()"><img src="/assets/images/close_icon_64.png" /></a>
+  </div>
+  <div id="overlay_inner">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/info">Info</a></li>    
+    <li class="sublist" onclick="expand1()"><a href="#">Restaurants</a></li> 
+    <ul id="horizontal_list1" class="horizontal_list hidden_list">
+      <li class="horizontal_list_item"><a href="/restaurants">All</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/berlin">Berlin</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/dortmund">Dortmund</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/dusseldorf">Düsseldorf</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/frankfurt">Frankfurt</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/hamburg">Hamburg</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/koln">Köln</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/leipzig">Leipzig</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/munchen">München</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/nurnberg">Nürnberg</a></li> 
+      <li class="horizontal_list_item"><a href="/restaurants/stuttgart">Stuttgart</a></li> 
+    </ul>    
+    <li class="sublist" onclick="expand2()"><a href="#">Supermarkets</a></li> 
+    <ul id="horizontal_list2" class="horizontal_list hidden_list">
+      <li class="horizontal_list_item"><a href="/supermarkt">All</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/berlin">Berlin</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/dortmund">Dortmund</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/dusseldorf">Düsseldorf</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/frankfurt">Frankfurt</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/hamburg">Hamburg</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/koln">Köln</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/leipzig">Leipzig</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/munchen">München</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/nurnberg">Nürnberg</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/stuttgart">Stuttgart</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/bremen">Bremen</a></li> 
+      <li class="horizontal_list_item"><a href="/supermarkt/hannover">Hannover</a></li> 
+    </ul>  
+  <li><a href="/rezept">Recipes</a></li>
+  <li><a href="/toppings">Ramen Toppings</a></li>
+  <li><a href="/ramenmarke">Ramenmarke</a></li>
+  <li><a href="/ueberuns">Über uns</a></li>
+  </ul>
+</div>
+</div>
+<script>
+  function expand1() {    
+    if ($('#horizontal_list1').hasClass('hidden_list')) {
+      $('#horizontal_list1').removeClass('hidden_list')  
+    } else {
+      $('#horizontal_list1').addClass('hidden_list')
+    }
+  }
+  function expand2() {
+    if ($('#horizontal_list2').hasClass('hidden_list')) {
+      $('#horizontal_list2').removeClass('hidden_list')  
+    } else {
+      $('#horizontal_list2').addClass('hidden_list')
+    }
+  }
+  function closeMenu() {
+    $('.overlay_menu').addClass('hidden_menu')
+  }
+</script>  

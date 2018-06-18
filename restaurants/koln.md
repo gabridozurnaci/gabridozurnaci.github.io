@@ -10,7 +10,7 @@ data:
   geo:
     lat: 50.9375
     lng: 6.9603
-  restaurants:
+  restaurants:meun
   - name: Tobioka
     description: Toller Service, umfangreiche Karte.
     address: Karolingerring 40, 50678 Köln
