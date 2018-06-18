@@ -94,3 +94,4 @@ data:
   {%- endfor -%}
  </div>
 </div>
+Keine Zeit ins Restaurant zu gehen? Dann mach lieber selber! <a href="/supermarkt/stuttgart">Klick hier</a> für die Supermärkte überall Stuttgart!

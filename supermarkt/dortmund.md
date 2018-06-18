@@ -50,3 +50,4 @@ Du weißt nicht wo du deine zukünftigen Lieblingsramen findest? Wir haben euch 
   {%- endfor -%}
  </div>
 </div>
+Gönnt dich authentisches Ramen, <a href="/restaurants/dortmund">Klick hier</a>.

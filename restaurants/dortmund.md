@@ -79,3 +79,4 @@ data:
   {%- endfor -%}
  </div>
 </div>
+Keine Zeit ins Restaurant zu gehen? Dann mach lieber selber! <a href="/supermarkt/dortmund">Klick hier</a> für die Supermärkte überall Dortmund!
