@@ -6,6 +6,7 @@ categories: misc
 ---
 
 <!-- <img class="responsive header" src="{{ "/assets/images/info_banner.jpg" | absolute_url }}" /> -->
+<img src="/assets/images/ueber_uns.jpg" width="500" alt="ueber_uns" /><br />
 <br />
 Hey!<br />
 Wir sind Joie Anne und Can, deine Ramenratgeber. Diese Website ist im Zuge unseres Kurses „Suchmaschinenoptimierung“ der HAW Hamburg entstanden. Man könnte diese Website also als eine Art Übung betrachten. Daher wird sie nach Ende unseres Semesters im Jahr 2018 leider nur noch gelegentlich aktualisiert werden. 

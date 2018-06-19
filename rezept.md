@@ -8,7 +8,7 @@ categories: misc
 <!-- <img class="responsive header" src="{{ "/assets/images/info_banner.jpg" | absolute_url }}" /> -->
 <br />
 Wir wissen es schon, ihr liebt die kleinen Fertigsuppenpäckchen. Instant-Ramen schmeckt lecker, macht satt und lässt sich schnell und einfach zubereiten. Doch kannst du aus dem Instantnudeln noch mehr machen! Mit wenigen zusätzlichen Zutaten kannst du ein vollwertiges Gericht zaubern. Lass dich von diesen Rezepten inspirieren und wir garantieren es, es wird tausendmal leckerer. Guten Appetit!<br /><br />
-
+<img src="/assets/images/rezept.jpg" width="500" alt="rezept" /><br /><br />
 ### Thai Chicken Ramen
 Zutaten:
 

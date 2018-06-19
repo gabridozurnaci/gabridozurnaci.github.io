@@ -160,6 +160,10 @@ In vielen Ländern sind Instant-Nudeln ein sehr günstiges Nahrungsmittel. Wegen
 Nong Shim wurde 1965 unter dem Namen Lotte Food Industrial Company gegründet und 1978 auf Nong Shim geändert. Es ist ein südkoreanisches Unternehmen für Nahrungsmittel und Getränke mit Hauptsitz in Seoul. 
 Momentan ist Nongshim die größte Ramyun Unternehmen und bietet ihre Marke weltweit, jetzt in über 100 Länder. 
 <br /><br />
+<img src="/assets/images/ramenmarke/nong_shim_shin_ramyun.png" width="300" alt="nong_shim_shin_ramyun" />
+<img src="/assets/images/ramenmarke/nong_shim_shin_kimchi.png" width="300" alt="nong_shim_shin_kimchi" />
+<img src="/assets/images/ramenmarke/nong_shim_bowl_noodle_soup.png" width="300" alt="nong_shim_bowl_noodle_soup" />
+<br /><br />
 <table class="products">
   <tr>
     <th>Produkte</th>
@@ -183,6 +187,8 @@ Momentan ist Nongshim die größte Ramyun Unternehmen und bietet ihre Marke welt
 Onlinekauf: amazon.de, asiafoodland.de, www.asia-in.de<br /><br />
 #### [Mama](http://www.mama.co.th)
 Thai President Foods PCL ist der grosste Hersteller von Instant-Nudeln in Thailand und MAMA ist einer der vielen Marken, die sie herstellen. Mama, die Hauptprodukte des Unternehmens, sind aromatisierte Instant-Nudeln und sie werden weltweit vertriebt. Zu den Spezialitäten gehören Schweinefleisch, thailändische Tom Yum Garnelen, Hühnchen, vegetarische, vietnamesische Pho, Thai Pad kee mao, usw. Die sind sowohl in Einzelpackungen als auch in Einwegbechern verpackt. 
+<br /><br />
+<img src="/assets/images/ramenmarke/mama.png" width="300" alt="mama" />
 <br /><br />
 <table class="products">
   <tr>
@@ -208,6 +214,9 @@ Onlinekauf : amazon.de, asiafoodland.de, www.asia-in.de<br /><br />
 
 #### [Nissin](http://www.nissin.com)
 Das Unternehmen wurde im Jahr 1948 in Osaka gegründet. Dort hat Momofuku Ando, den Grunder, 1958 das weltweit erste Instant-Nudeln-Gericht „Chicken Ramen“ entwickelt.  Es hat einen wichtigen neuen Schritt in der Ernährungskultur der Welt gemacht. 1971 führte Nissin Instant-Cup-Nudeln, eine in einem Kunststoffbecher verpackte Instant-Nudelsuppe, ein und sie haben diese Produkte stark in den Markt verkauft, sowohl lokal als auch global. Nach Unternehmensangaben wurden „Cup Noodles“ 2016 insgesamt 40 Milliarden mal verkauft.
+<br /><br />
+<img src="/assets/images/ramenmarke/nissin.jpg" width="300" alt="nissin" />
+<img src="/assets/images/ramenmarke/nissin_2.jpg" width="300" alt="nissin" />
 <br /><br />
 <table class="products">
   <tr>

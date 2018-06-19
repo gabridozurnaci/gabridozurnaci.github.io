@@ -547,6 +547,7 @@ data:
         return content
       }
       </script>
+<img src="/assets/images/restaurant.jpg" width="500" alt="restaurant" /><br /><br />      
 <p class="post_subtitle">Instant Ramen haben inzwischen euer Herz erobert, doch ab und an müsst ihr auch mal das Original probieren. Daher sind hier unsere Top-Empfehlungen, was Restaurants in Deutschland betrifft.</p>
 <br />
 <div id="outer_container">

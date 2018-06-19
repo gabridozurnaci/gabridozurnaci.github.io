@@ -658,6 +658,13 @@ h3.contact__card-title a {
   transition: all .5s
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .promo__btn:hover {
   background-color: #f51616
 }

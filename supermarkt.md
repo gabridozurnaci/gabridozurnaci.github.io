@@ -304,6 +304,8 @@ data:
         return content
       }
       </script>
+<img src="/assets/images/supermarkt_1.jpg" width="500" alt="supermarkt_1" /><br /><br />
+<img src="/assets/images/supermarkt_2.jpg" width="500" alt="supermarkt_2" /><br />
 <!-- <p class="post_subtitle">Wo kannst du Instant Ramen kaufen?</p> -->
 Du weißt nicht wo du deine zukünftigen Lieblingsramen findest? Wir haben euch asiatische Supermärkte mit den besten Bewertungen zusammengesucht. Scrollt doch einfach mal runter. 
 <br /><br />

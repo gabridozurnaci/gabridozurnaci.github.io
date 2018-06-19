@@ -4,7 +4,8 @@ title: "Ramen-toppings"
 description: "Ramen-toppings"
 categories: misc
 ---
-<br />
+<img src="/assets/images/toppings_1.jpg" width="500" alt="toppings_1" /><br /><br />
+<img src="/assets/images/toppings_2.jpg" width="500" alt="toppings_2" /><br /><br />
 #### Cheddarkäse
 Ja, du hast richtig gehört. Käse ist nämlich nicht nur für Sandwiches gedacht, sondern 		auch um deine Ramen einen ganz eigenen Geschmack zu verleihen. Der 	Cheddar löst 		sich in der heißen Brühe nämlich auf und verleiht dem ganzen eine deftige Note. 			Käseliebhaber sollten das definitiv probieren, aber wer liebt keinen Käse? 
 <br /><br />
