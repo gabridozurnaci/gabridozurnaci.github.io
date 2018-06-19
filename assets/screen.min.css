@@ -130,7 +130,8 @@ table {
 
 button,
 input[type=submit] {
-  cursor: pointer
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
 }
 
 h1 {

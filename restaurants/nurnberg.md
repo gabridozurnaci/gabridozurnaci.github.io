@@ -94,4 +94,4 @@ data:
   {%- endfor -%}
  </div>
 </div>
-Keine Zeit ins Restaurant zu gehen? Dann mach lieber selber! <a href="/supermarkt/nurnberg">Klick hier</a> für die Supermärkte überall Nürnberg!
+Keine Zeit ins Restaurant zu gehen?  <a href="/supermarkt/nurnberg">Klick hier</a> für die Supermärkte überall Nürnberg!
