@@ -51,4 +51,4 @@ Du weißt nicht wo du deine zukünftigen Lieblingsramen findest? Wir haben euch 
   {%- endfor -%}
  </div>
 </div>
-Gönnt dich authentisches Ramen, <a href="/restaurants">Klick hier</a>.
+Gönnt authentisches Ramen, <a href="/restaurants">Klick hier</a>.
