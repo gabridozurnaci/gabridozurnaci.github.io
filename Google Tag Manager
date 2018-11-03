@@ -1,1 +1,2 @@
 $ composer require xynnn/google-tag-manager-bundle "~2.0"
+composer require stefandoorn/google-tag-manager-plugin
