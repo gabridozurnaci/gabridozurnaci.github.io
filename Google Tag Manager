@@ -1,2 +1,6 @@
-$ composer require xynnn/google-tag-manager-bundle "~2.0"
-composer require stefandoorn/google-tag-manager-plugin
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSPLBT8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
