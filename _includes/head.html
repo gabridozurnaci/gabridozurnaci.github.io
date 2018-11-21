@@ -40,12 +40,49 @@ window.cookieconsent.initialise({
       "background": "#f5d948"
     }
   },
+  "type": "opt-out",
   "position": "bottom",
   "content": {
     "message": "Die Website verwendet Cookies, um Ihnen ein bestmögliches Angebot zu präsentieren. Nähere Informationen und die Möglichkeit, die Verwendung von Cookies einzuschränken finden Sie",
     "dismiss": "Fortfahren",
     "link": "hier"
-  }
+  },
+  onInitialise: function (status) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      console.log('enable cookies');
+    }
+    if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+      console.log('disable cookies');
+    }
+  },
+  onStatusChange: function(status, chosenBefore) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      console.log('enable cookies');
+    }
+    if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+      console.log('disable cookies');
+    }
+  },
+ 
+  onRevokeChoice: function() {
+    var type = this.options.type;
+    if (type == 'opt-in') {
+      // disable cookies
+      console.log('enable cookies');
+    }
+    if (type == 'opt-out') {
+      // enable cookies
+      console.log('disable cookies');
+    }
+  },
 })});
 </script>
 {%- include overlay_menu.html -%}
