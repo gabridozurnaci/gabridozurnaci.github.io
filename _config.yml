@@ -26,7 +26,7 @@ rss: rss
 #   instance: example.com
 
 lang: de
-google_analytics: UA-118462140-1
+google_analytics: UA-128595960-1
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
