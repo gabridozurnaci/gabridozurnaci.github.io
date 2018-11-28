@@ -49,14 +49,16 @@ window.cookieconsent.initialise({
   },
   onInitialise: function (status) {
     var type = this.options.type;
-    var didConsent = this.hasConsented();
+    var didConsent = this.hasConsented();    
     if (type == 'opt-in' && didConsent) {
       // enable cookies
       window['ga-disable-{{ site.google_analytics }}'] = false;
+      document.cookie = 'ga-opt-out=true; expires=Thu, 31 Dec 1099 23:59:59 UTC; path=/';
     }
     if (type == 'opt-out' && !didConsent) {
       // disable cookies
       window['ga-disable-{{ site.google_analytics }}'] = true;
+      document.cookie = 'ga-opt-out=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
     }
   },
   onStatusChange: function(status, chosenBefore) {
@@ -65,10 +67,12 @@ window.cookieconsent.initialise({
     if (type == 'opt-in' && didConsent) {
       // enable cookies
       window['ga-disable-{{ site.google_analytics }}'] = false;
+      document.cookie = 'ga-opt-out=true; expires=Thu, 31 Dec 1099 23:59:59 UTC; path=/';
     }
     if (type == 'opt-out' && !didConsent) {
       // disable cookies
       window['ga-disable-{{ site.google_analytics }}'] = true;
+      document.cookie = 'ga-opt-out=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
     }
   },
  
